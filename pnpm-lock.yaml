@@ -20,9 +20,6 @@ importers:
 
   apps/http-server:
     dependencies:
-      '@prisma/client':
-        specifier: 6.3.0
-        version: 6.3.0(prisma@6.3.1(typescript@5.7.3))(typescript@5.7.3)
       '@types/express':
         specifier: ^5.0.0
         version: 5.0.0
@@ -33,9 +30,6 @@ importers:
       '@repo/db':
         specifier: workspace:*
         version: link:../../packages/db
-      '@repo/eslint-config':
-        specifier: workspace:*
-        version: link:../../packages/eslint-config
       '@repo/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
@@ -95,9 +89,6 @@ importers:
       '@repo/db':
         specifier: workspace:*
         version: link:../../packages/db
-      '@repo/eslint-config':
-        specifier: workspace:*
-        version: link:../../packages/eslint-config
       '@repo/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
@@ -114,9 +105,6 @@ importers:
       '@repo/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
-      '@types/node':
-        specifier: ^22.13.1
-        version: 22.13.1
 
   packages/eslint-config:
     devDependencies:
@@ -529,9 +517,6 @@ packages:
 
   '@types/node@22.13.0':
     resolution: {integrity: sha512-ClIbNe36lawluuvq3+YYhnIN2CELi+6q8NpnM7PYp4hBn/TatfboPgVSm2rwKRfnV2M+Ty9GWDFI64KEe+kysA==}
-
-  '@types/node@22.13.1':
-    resolution: {integrity: sha512-jK8uzQlrvXqEU91UxiK5J7pKHyzgnI1Qnl0QDHIgVGuolJhRb9EEl28Cj9b3rGR8B2lhFCtvIm5os8lFnO/1Ew==}
 
   '@types/qs@6.9.18':
     resolution: {integrity: sha512-kK7dgTYDyGqS+e2Q4aK9X3D7q234CIZ1Bv0q/7Z5IwRDoADNU81xXJK/YVyLbLTZCoIwUoDoffFeF+p/eIklAA==}
@@ -2716,10 +2701,6 @@ snapshots:
   '@types/minimatch@5.1.2': {}
 
   '@types/node@22.13.0':
-    dependencies:
-      undici-types: 6.20.0
-
-  '@types/node@22.13.1':
     dependencies:
       undici-types: 6.20.0
 

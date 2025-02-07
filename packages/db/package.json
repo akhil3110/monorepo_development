@@ -8,8 +8,7 @@
   "keywords": [],
   "author": "",
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
-    "@types/node": "^22.13.1"
+    "@repo/typescript-config": "workspace:*"
   },
   "license": "ISC",
   "description": "",
